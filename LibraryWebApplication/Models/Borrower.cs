@@ -5,7 +5,7 @@
         public int BorrowerID { get; set; }
         public string FirstName { get; set; } = null!;
         public string LastName { get; set; } = null!;
-        public DateOnly DateLoaned { get; set; }
-        public DateOnly DateReturned { get; set; }
+        public char Email { get; set; }
+        public bool AccountStatus { get; set; }
     }
 }
