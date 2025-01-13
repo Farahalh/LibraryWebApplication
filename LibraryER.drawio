@@ -1,14 +1,14 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="26.0.5">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
-    <mxGraphModel dx="2074" dy="2499" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
+    <mxGraphModel dx="829" dy="1539" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="jyX-5wP8GBcwN6ynJ2SO-1" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Labb 2&lt;/h1&gt;&lt;p&gt;Requirements:&lt;/p&gt;&lt;p&gt;- The database should be able to store books and who wrote them.&lt;/p&gt;&lt;p&gt;- One book can have many authors.&lt;/p&gt;&lt;p&gt;- More of the same book can be in the stored in the library.&lt;/p&gt;&lt;p&gt;- The database should be able to register a book as OnLoan and when it has been returned.&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="235" y="-370" width="200" height="250" as="geometry" />
+          <mxGeometry x="235" y="-470" width="200" height="250" as="geometry" />
         </mxCell>
         <mxCell id="jyX-5wP8GBcwN6ynJ2SO-2" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Endpoints&lt;/h1&gt;&lt;p&gt;Endpoints for the following functionality should exist in the Web-API:&lt;/p&gt;&lt;p&gt;- Create a author&lt;br&gt;- Remove authors&lt;br&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;- Create a book&lt;br&gt;- List all books&lt;br&gt;- Get info about a specific book&lt;br&gt;- Borrow a book&lt;br&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;- Return a book&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;- Remove books&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;- Create a new borrower&lt;br&gt;- Remove borrowers&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="485" y="-370" width="200" height="320" as="geometry" />
+          <mxGeometry x="485" y="-470" width="200" height="320" as="geometry" />
         </mxCell>
         <mxCell id="jyX-5wP8GBcwN6ynJ2SO-28" value="Author" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;" parent="1" vertex="1">
           <mxGeometry x="210" y="-960" width="210" height="120" as="geometry" />
@@ -115,7 +115,7 @@
             <mxRectangle width="30" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="jyX-5wP8GBcwN6ynJ2SO-56" value="Quantity int NOT NULL" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;" parent="jyX-5wP8GBcwN6ynJ2SO-54" vertex="1">
+        <mxCell id="jyX-5wP8GBcwN6ynJ2SO-56" value="Quantity int NOT NULL, UNIQUE" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;" parent="jyX-5wP8GBcwN6ynJ2SO-54" vertex="1">
           <mxGeometry x="30" width="190" height="30" as="geometry">
             <mxRectangle width="190" height="30" as="alternateBounds" />
           </mxGeometry>
