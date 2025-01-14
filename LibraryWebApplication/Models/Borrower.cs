@@ -1,10 +1,9 @@
-﻿namespace LibraryApi.Models
+﻿namespace LibraryApi.Models;
+
+public class Borrower
 {
-    public class Borrower
-    {
-        public int BorrowerID { get; set; }
-        public string FirstName { get; set; } = null!;
-        public string LastName { get; set; } = null!;
-        public List<Checkout> Checkouts { get; set; }
-    }
+    public int BorrowerID { get; set; }
+    public required string FirstName { get; set; }
+    public required string LastName { get; set; }
+    public List<Checkout>? Checkout { get; set; } = new();
 }
